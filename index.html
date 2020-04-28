@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div class="col-md-6">
+                <span>Time:</span>
+                <span id="timer"></span>
+                <span>score:</span>
+                <span id="score"></span>
+            </div>
+            
+            <h1 id="header">JavaScript Trivia Game!</h1>
+            <div id="question">Question</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button id="btn1" class="btn">Answer 1</button>
+                    <button id="btn2" class="btn">Answer 2</button>
+                    <button id="btn3" class="btn">Answer 3</button>
+                    <button id="btn4" class="btn">Answer 4</button>
+                </div>
+            </div>
+            <div class ="controls">
+                <button id="start-btn" class="start-btn">Start</button>
+                <button id="next-btn" class="next-btn">Next</button>
+            </div>
+            <span id="right-answers"></span>
+         </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script2.js"></script>
+</body>
+</html>
